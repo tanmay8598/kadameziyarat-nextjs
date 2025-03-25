@@ -1,0 +1,315 @@
+.description {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  /* padding: 0 var(--padding-11xl); */
+  align-items: center;
+  justify-content: flex-start;
+  /* gap: var(--gap-5xl); */
+}
+
+.propertiesByArea {
+  align-self: stretch;
+  position: relative;
+  line-height: 48px;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.vestibulumAnteIpsum {
+  position: relative;
+  font-size: var(--body-large-300-size);
+  line-height: 19px;
+  color: var(--color-lightslategray);
+  text-align: center;
+  font-size: 16px;
+}
+
+.centerville {
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+}
+.listings {
+  position: relative;
+  font-size: var(--components-input-text-size);
+  line-height: 24px;
+  text-align: center;
+}
+.card1,
+.text {
+  display: flex;
+  align-items: flex-start;
+}
+.text {
+  margin: 0 !important;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  z-index: 0;
+}
+
+.card1,
+.card2,
+.card3 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  height: 241px;
+  justify-content: flex-start;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.card2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /* background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/cd/8b/24/archers-centerville.jpg?w=600&h=400&s=1"); */
+}
+.card3 {
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi5MHAOxc4f42gtbMiiHeUh83tRgOVChqz_IhwqPxMTJlWzZvigCW1w8EOF4m_s9SVRpk&usqp=CAU"); */
+}
+.card3,
+.card4,
+.row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.row1 {
+  align-self: stretch;
+  justify-content: center;
+  gap: 26px;
+}
+.card4 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  height: 241px;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  position: relative;
+  /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi5MHAOxc4f42gtbMiiHeUh83tRgOVChqz_IhwqPxMTJlWzZvigCW1w8EOF4m_s9SVRpk&usqp=CAU"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.cards,
+.cardwrapper,
+.row2 {
+  align-self: stretch;
+  display: flex;
+}
+.row2 {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.cards,
+.cardwrapper {
+  flex: 1;
+}
+.cardwrapper {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 1300px;
+}
+.cards {
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 95%px;
+  text-align: left;
+  font-size: var(--heading-heading-4-size);
+  color: var(--gray-white);
+}
+
+.propertiesByAreaImagesSect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  /* padding: 53px var(--padding-31xl); */
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.landingPage {
+  position: relative;
+  background-color: var(--gray-white);
+  width: 100%;
+  height: 5095.99px;
+  text-align: center;
+  font-size: var(--heading-heading-1-size);
+  color: var(--primary-800);
+  /* font-family: var(--body-large-400); */
+}
+@media screen and (max-width: 1200px) {
+  .row1,
+  .row2 {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 960px) {
+  .description {
+    /* align-self: stretch; */
+    width: auto;
+  }
+  .card1,
+  .card2,
+  .card3 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .row1 {
+    flex-direction: column;
+  }
+  .card4 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .row2 {
+    flex-direction: column;
+  }
+}
+
+.centerville {
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+}
+.listings {
+  position: relative;
+  font-size: var(--components-input-text-size);
+  line-height: 24px;
+  text-align: center;
+}
+.card5,
+.text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text {
+  margin: 0 !important;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+  z-index: 0;
+}
+
+@media screen and (max-width: 960px) {
+  .card5 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .propertiesByArea {
+    font-size: 20px;
+    /* align-self: center; */
+  }
+
+  .vestibulumAnteIpsum {
+    font-size: 14px;
+  }
+
+  .description {
+    padding: 0;
+  }
+}
+
+.mobileCards {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .cards {
+    display: none;
+  }
+
+  .text {
+    position: relative;
+    display: flex;
+    /* background-color: var(--primary-500); */
+    /* padding: 10px 20px; */
+    /* border-radius: 10px; */
+
+    color: black;
+    padding-bottom: 40px;
+  }
+
+  .mobileCards {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    overflow-x: scroll;
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+    gap: 30px;
+  }
+
+  .mobileCards::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+
+  .propertiesByAreaImagesSect {
+    border-top: 1px solid gray;
+  }
+
+  .fpItem {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .propertiesByArea {
+    font-size: 24px;
+  }
+
+  .vestibulumAnteIpsum {
+    font-size: 15px;
+  }
+
+  .card1,
+  .card4 {
+    /* height: 120px; */
+    /* opacity: 0.9; */
+    min-width: 25vmax;
+    display: block;
+    /* align-items: center; */
+    gap: 10px;
+    /* justify-content: space-between; */
+    color: black;
+    height: auto;
+  }
+
+  .mobileImg {
+    height: 120px;
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .card1,
+  .card4 > h4 {
+    font-size: 18px;
+  }
+
+  .card1,
+  .card4 > p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

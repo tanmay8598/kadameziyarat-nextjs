@@ -1,0 +1,108 @@
+.mainContainer {
+  padding: 0 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalPriceContainer {
+  width: 376px;
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.leftContainer {
+  width: 376px;
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+}
+.rightContainer {
+  width: 706px;
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+}
+
+.priceContainer {
+  width: 376px;
+  margin-top: 20px;
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+}
+
+.leftDateContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 90%;
+}
+
+.packageDetail1 {
+  display: flex;
+  margin-top: 20px;
+}
+
+.hotelInfo {
+  margin-left: 20px;
+}
+
+.pkgImg {
+  width: 200px;
+  height: 140px;
+  border-radius: 8px;
+}
+
+.emptyContainer {
+  margin: 0 auto;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .mainContainer {
+    margin-top: 100px;
+    padding: 0 20px;
+  }
+  .container {
+    display: block;
+  }
+
+  .rightContainer {
+    margin-top: 20px;
+  }
+
+  .totalPriceContainer,
+  .leftContainer,
+  .rightContainer,
+  .priceContainer {
+    width: 100%;
+  }
+
+  .packageDetail1 {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .hotelInfo {
+    margin-left: 0;
+  }
+}

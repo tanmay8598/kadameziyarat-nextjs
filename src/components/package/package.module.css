@@ -1,0 +1,23 @@
+.packageContainer {
+  width: 285px;
+}
+
+.packageContainer:hover {
+  transform: scale(1.1);
+}
+
+.packageContainer img {
+  border-radius: 5px;
+}
+
+.infoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .packageContainer {
+    margin-top: 20px;
+  }
+}

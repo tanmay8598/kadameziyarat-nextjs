@@ -1,0 +1,112 @@
+.fpContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.fp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cta {
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-500);
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-5xl);
+  align-items: flex-start;
+  font-size: var(--components-input-text-size);
+  color: var(--gray-white);
+}
+
+.description {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  /* padding: 0 var(--padding-11xl); */
+  align-items: center;
+  justify-content: flex-start;
+  /* gap: var(--gap-5xl); */
+}
+
+.propertiesByArea {
+  align-self: stretch;
+  position: relative;
+  line-height: 48px;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.vestibulumAnteIpsum {
+  position: relative;
+  font-size: var(--body-large-300-size);
+  line-height: 19px;
+  color: var(--color-lightslategray);
+  text-align: center;
+  font-size: 16px;
+}
+
+.fpItem {
+  width: 290px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.fpImg {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.fpName {
+  color: #333;
+  font-weight: bold;
+}
+
+.fpCity {
+  font-weight: 300;
+}
+
+.fpPrice {
+  font-weight: 500;
+}
+
+.fpRating > button {
+  background-color: #003580;
+  color: white;
+  border: none;
+  padding: 3px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.fpRating > span {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+  .fpContainer {
+    border-top: 1px solid gray;
+  }
+
+  .fpItem {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .propertiesByArea {
+    font-size: 24px;
+  }
+
+  .vestibulumAnteIpsum {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,142 @@
+.mainContainer {
+  padding: 0 60px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.packageDesc {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.5em;
+  height: 6em; /* height is 2x line-height, so two lines will display */
+  overflow: hidden; /* prevents extra lines from being visible */
+  text-align: justify;
+}
+.container {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.submitReview {
+  border: none;
+  background-color: var(--primary-700);
+  /* background: linear-gradient(to bottom left, #3a98e6 20%, #0039a6 100%); */
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 0.6vmax 2vmax;
+  margin: 1vmax 0;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+  /* width: 100%; */
+}
+.submitReview:hover {
+  /* background-color: rgb(197, 68, 45); */
+  transform: scale(1.1);
+}
+
+.totalPriceContainer {
+  width: 376px;
+  border: 1px solid #e7e7e7;
+  border-radius: 3px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ebf3ff;
+}
+
+.leftContainer {
+  width: 376px;
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+}
+.rightContainer {
+  width: 776px;
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+}
+
+.priceContainer {
+  width: 376px;
+  margin-top: 20px;
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+}
+
+.leftDateContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 90%;
+}
+
+.packageDetail1 {
+  display: flex;
+  margin-top: 20px;
+}
+
+.hotelInfo {
+  margin-left: 20px;
+}
+
+.pkgImg {
+  width: 200px;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.emptyContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: block;
+    margin-top: 100px;
+  }
+
+  .totalPriceContainer,
+  .leftContainer,
+  .rightContainer,
+  .priceContainer {
+    width: 100%;
+  }
+
+  .mainContainer {
+    padding: 0 20px;
+  }
+
+  .hotelInfo h2 {
+    font-size: 15px;
+  }
+  .hotelInfo p {
+    font-size: 12px;
+    margin: 4px 0;
+  }
+
+  .submitReview {
+    width: 100%;
+    padding: 14px 0;
+  }
+
+  .packageDesc {
+    display: none;
+  }
+}

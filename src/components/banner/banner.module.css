@@ -1,0 +1,28 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 65px;
+}
+
+.wrapper > img {
+  border-radius: 5px;
+  height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin-top: 0;
+  }
+
+  .wrapper {
+    /* height: 19vh; */
+    object-fit: contain;
+  }
+  .wrapper > img {
+    border-radius: 0;
+  }
+
+  .container img {
+    height: 100%;
+  }
+}

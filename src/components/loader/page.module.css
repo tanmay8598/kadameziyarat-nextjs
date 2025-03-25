@@ -1,0 +1,8 @@
+.loaderContainer {
+  /* margin-top: 200px; */
+  display: flex;
+  width: 500px;
+  height: 50%;
+  margin: 0 auto;
+  background-color: red;
+}

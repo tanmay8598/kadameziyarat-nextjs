@@ -1,0 +1,63 @@
+/* The outer container for the splash screen */
+.splashscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  z-index: 9999;
+}
+
+/* Class to make the splash screen visible */
+.splashscreen.visible {
+  opacity: 1;
+}
+
+/* The content of the splash screen */
+.splashcontent {
+  text-align: center;
+}
+
+/* Text animation */
+.animationtext {
+  display: inline-block;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 8px;
+  color: transparent;
+  animation: fadeInScaleColor 1.5s forwards 0.5s;
+}
+
+/* Keyframes for fadeInScaleColor animation */
+@keyframes fadeInScaleColor {
+  0% {
+    opacity: 0;
+    transform: scale(1.5);
+    color: transparent;
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1);
+    color: transparent;
+  }
+  100% {
+    color: #6c63ff; /* Replace with your desired color */
+  }
+}
+
+/* Styling for individual text spans */
+.animationtext span {
+  display: block;
+}
+.animationtext span:nth-child(1) {
+  animation-delay: 0.4s;
+}
+.animationtext span:nth-child(2) {
+  animation-delay: 0.6s;
+}

@@ -1,0 +1,170 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 140px;
+}
+
+.ResetBtn {
+  border: none;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--primary-700);
+}
+
+.loaderContainer {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputTxt {
+  position: relative;
+}
+
+.inputIcon {
+  position: absolute;
+  left: 12px;
+  top: 20px;
+  cursor: pointer;
+}
+.eyeIcon {
+  position: absolute;
+  right: 12px;
+  top: 20px;
+  cursor: pointer;
+}
+.title {
+  color: #000000;
+}
+
+.subtitle {
+  /* font-size: 20px; */
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+.form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input {
+  padding: 20px;
+  background-color: transparent;
+  border: 2px solid #bbb;
+  border-radius: 5px;
+  outline: none;
+  color: #003580;
+  font-size: 15px;
+  width: 100%;
+  padding-left: 35px;
+}
+
+.button {
+  width: 300px;
+  padding: 20px;
+  cursor: pointer;
+  background-color: var(--primary-500);
+  border: none;
+  border-radius: 5px;
+  color: #eee;
+  font-weight: bold;
+}
+.button1 {
+  width: 200px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: var(--primary-500);
+  border: none;
+  border-radius: 5px;
+  color: #eee;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* .button:hover {
+  background-color: #49b07d;
+} */
+
+.or {
+  color: #bbb;
+}
+
+.link {
+  /* text-decoration: underline; */
+  color: #7d7c7c;
+}
+
+.link:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+
+.google {
+  background-color: #49b07d;
+  color: white;
+}
+
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+  font-size: 15px;
+  text-align: center;
+}
+.modal > .actions {
+  width: 50%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+@media screen and (max-width: 600px) {
+  .button1 {
+    width: auto;
+    padding: 10px;
+    cursor: pointer;
+    background-color: var(--primary-500);
+    border: none;
+    border-radius: 5px;
+    color: #eee;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+}
