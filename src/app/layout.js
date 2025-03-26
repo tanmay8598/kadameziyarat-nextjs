@@ -20,8 +20,8 @@ const fonts = Public_Sans({ subsets: ["latin"] });
 
 export const metadata = {
   title:
-    "Kadameziyarat - Your Trusted Partner for Spiritual Ziyarat Tours",
-  description: "Embark on a spiritually enriching Ziyarat journey with Kadameziyarat. We specialize in guided pilgrimages to sacred sites in Iran, Iraq, and Najaf, offering comprehensive travel packages, comfortable accommodations, and expert local guidance for a seamless experience.",
+    "Kadam-e-Ziyarat | Ground and group packages to Iran, Iraq & Umrah",
+  description: "Looking for a trusted Ziyarat tour? Kadam-e-Ziyarat offers customized group & ground packages for Iran, Iraq & Umrah. Book now!",
 };
 
 export default function RootLayout({ children }) {
