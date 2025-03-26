@@ -49,7 +49,7 @@ export default function RootLayout({ children }) {
               <div className="container">
                 <a
                   target="_blank"
-                  // href="https://wa.me/+97466178767"
+                  href="https://wa.me/+918922029110"
                   style={{
                     position: "fixed",
                     bottom: "30px",
