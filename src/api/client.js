@@ -1,8 +1,7 @@
 import { create } from "apisauce";
 
 const apiClient = create({
-  baseURL: "http://54.227.11.59:5000/api",
-  // baseURL: "http://localhost:5000/api",
+  baseURL: "https://backend.kadameziyarat.com/api",
   headers: { Accept: "application/vnd.github.v3+json" },
 });
 
